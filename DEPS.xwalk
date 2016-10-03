@@ -62,7 +62,8 @@ solutions = [
       'build/third_party/xvfb': None,
       'build/xvfb': None,
       'commit-queue': None,
-      'depot_tools': None,
+      'depot_tools': 
+        'https://chromium.googlesource.com/chromium/tools/depot_tools.git@9eadede7df2fb30f25edf64e378b129c88efdfb6',
       'src/chrome/tools/test/reference_build/chrome_linux': None,
       'src/chrome/tools/test/reference_build/chrome_mac': None,
       'src/chrome/tools/test/reference_build/chrome_win': None,
